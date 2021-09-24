@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Pagination = () => {
   return (
     <div className="d-flex justify-content-center">
-      <nav aria-label="Page navigation example">
+      <nav aria-label="Page navigation">
         <ul className="pagination">
           <li className="page-item">
             <Link className="page-link" to="#">
