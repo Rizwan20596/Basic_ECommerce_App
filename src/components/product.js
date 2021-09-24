@@ -3,11 +3,11 @@ import React from "react";
 /* Product component */
 const Product = product => {
   return (
-    <div className="col-sm-3">
+    <div className="col-sm-3 mb-2">
       <div
         className="card"
         key={product.product.id}
-        style={{ width: "18rem", height: "35rem" }}>
+        style={{ width: "18rem", height: "30rem" }}>
         <div className="mb-4">
           <div className="card-img-top">
             <img
