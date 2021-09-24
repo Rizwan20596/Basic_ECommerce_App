@@ -9,6 +9,7 @@ import mercedes from "../static/mercedes.jpg";
 import swift from "../static/swift.jpeg";
 import Pagination from "./pagination";
 
+/* list of products needs to be displayed */
 const products = [
   {
     id: "1",
@@ -108,6 +109,7 @@ const products = [
   },
 ];
 
+/* Catalog component calling product component */
 const Catalog = () => {
   let tiles = [];
   products.map(prod => {

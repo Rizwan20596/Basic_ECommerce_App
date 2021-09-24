@@ -1,5 +1,6 @@
 import React from "react";
 
+/* Product component */
 const Product = product => {
   return (
     <div className="col-sm-3">
