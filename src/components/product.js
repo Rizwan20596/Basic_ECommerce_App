@@ -23,8 +23,7 @@ const Product = product => {
             <br></br>
           </div>
           <div className="card-title content">
-            {product.product.cost}
-            <br></br>
+            Price: {product.product.cost} $<br></br>
           </div>
         </div>
       </div>
