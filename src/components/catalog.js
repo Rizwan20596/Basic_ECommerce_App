@@ -111,9 +111,9 @@ const products = [
 
 /* Catalog component calling product component */
 const Catalog = () => {
-  let tiles = [];
+  let cards = [];
   products.map(prod => {
-    tiles.push(<Product product={prod} key={prod.id}></Product>);
+    cards.push(<Product product={prod} key={prod.id}></Product>);
     return "";
   });
   return (
@@ -122,7 +122,7 @@ const Catalog = () => {
         <div className="text-center mb-4">This is header</div>
       </nav>
       <div className="container mt-2">
-        <div className="row">{tiles}</div>
+        <div className="row">{cards}</div>
         <Pagination />
       </div>
       <footer className="text-center font-weight-bold">This is footer</footer>
